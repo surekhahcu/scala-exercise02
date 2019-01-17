@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d02a27e6-7740-4b2d-9d41-d0f55dfac8c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/edu/hcu/assignment3/Assignment3.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/edu/hcu/assignment3/Assignment3Test.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Assignment3.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/Assignment3Test.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/edu/hcu/assignment3/Assignment3.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/edu/hcu/assignment3/Assignment3.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/edu/hcu/assignment3/Assignment3.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -46,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/edu/hcu/assignment3/Assignment3Test.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-99">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="171">
+              <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -63,8 +59,8 @@
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/test/scala/Assignment3Test.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Assignment3.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/edu/hcu/assignment3/Assignment3.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/edu/hcu/assignment3/Assignment3Test.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/edu/hcu/assignment3/Assignment3.scala" />
       </list>
     </option>
   </component>
@@ -130,7 +126,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547731207100" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547732668618" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -147,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.Assignment3Test">
+  <component name="RunManager" selected="ScalaTest.Assignment3Test.Insertion sort">
     <configuration name="Assignment3Test" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="scala-exercise-02" />
       <setting name="path" value="edu.hcu.assignment3.Assignment3Test" />
@@ -221,8 +217,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="ScalaTest.Assignment3Test" />
         <item itemvalue="ScalaTest.Assignment3Test.Insertion sort" />
+        <item itemvalue="ScalaTest.Assignment3Test" />
         <item itemvalue="ScalaTest.Assignment3Test.bubble sort" />
         <item itemvalue="ScalaTest.Assignment3Test" />
         <item itemvalue="ScalaTest.Assignment3Test.Implement show function" />
@@ -370,15 +366,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/edu/hcu/assignment3/Assignment3.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/edu/hcu/assignment3/Assignment3Test.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="171">
+          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
         </state>
       </provider>
     </entry>

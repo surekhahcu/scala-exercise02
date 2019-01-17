@@ -19,6 +19,7 @@ class Assignment3 {
   }
 
 
+
   // Bubble sort
   def bubble(arr: Array[Int]): Array[Int] = {
     for (i <- 0 to arr.length - 1) {
@@ -41,16 +42,16 @@ class Assignment3 {
   //Selection sort
   def selection(arr: Array[Int]): Array[Int] = {
     for (i <- 0 to arr.length - 1) {
-      var position = i
+      var min = i
       for (j <- i + 1 to arr.length - 1) {
-        if (arr(position) > arr(j)) {
-          position = j
+        if (arr(min) > arr(j)) {
+          min = j
         }
       }
-      if (position != i) {
-        arr(position) = arr(position) + arr(i)
-        arr(i) = arr(position) - arr(i)
-        arr(position) = arr(position) - arr(i)
+      if (min != i) {
+        arr(min) = arr(min) + arr(i)
+        arr(i) = arr(min) - arr(i)
+        arr(min) = arr(min) - arr(i)
       }
     }
     arr
@@ -58,4 +59,5 @@ class Assignment3 {
 
   //Merge sort
 
+  //Quick sort
 }

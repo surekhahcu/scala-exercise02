@@ -3,7 +3,6 @@ package edu.hcu.assignment3
 class Assignment3 {
 
 
-
   //Insertion sort
   def insertion(arr: Array[Int]): Array[Int] = {
     for (i <- 1 to arr.length - 1) {
@@ -18,6 +17,24 @@ class Assignment3 {
     arr
   }
 
+  def insertion2(arr: List[Int]): List[Int] = {
+
+    arr match {
+      case Nil => Nil
+      case head :: tail => insert(head, insertion2(tail))
+
+    }
+  }
+
+  def insert(x: Int, xs: List[Int]): List[Int] = {
+
+    xs match {
+      case Nil => List(x)
+      case head :: tail =>
+        if (head >= x) x :: xs
+        else head :: insert(x, tail)
+    }
+  }
 
 
   // Bubble sort
@@ -35,8 +52,10 @@ class Assignment3 {
   }
 
 
+  def bubble2(arr: List[Int]): List[Int] = {
+  arr.foldLeft(List[Int]()) { (temp, ele) => if (temp.head > ele) ele :: temp else temp :+ ele }
 
-
+  }
 
 
   //Selection sort
@@ -57,7 +76,11 @@ class Assignment3 {
     arr
   }
 
-  //Merge sort
 
-  //Quick sort
+  
 }
+
+
+
+
+

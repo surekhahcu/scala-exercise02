@@ -1,0 +1,18 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mAssignment3Test:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Insertion sort[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Insertion sort2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- bubble sort[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- bubble sort2 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.util.NoSuchElementException: head of empty list[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.Nil$.head(List.scala:430)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.Nil$.head(List.scala:427)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.hcu.assignment3.Assignment3.$anonfun$bubble2$1(Assignment3.scala:56)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.hcu.assignment3.Assignment3.$anonfun$bubble2$1$adapted(Assignment3.scala:56)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.List.foldLeft(List.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.hcu.assignment3.Assignment3.bubble2(Assignment3.scala:56)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.hcu.assignment3.Assignment3Test.$anonfun$new$4(Assignment3Test.scala:29)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Selection sort[0m[0m
